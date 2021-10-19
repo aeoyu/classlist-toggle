@@ -1,0 +1,17 @@
+/* Background color */
+
+body {
+	background: #000000;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+canvas {
+	position: absolute;
+	opacity: 0.2;
+	z-index: 9999;
+	pointer-events: none;
+	user-select: none;
+	object-fit: contain;
+}

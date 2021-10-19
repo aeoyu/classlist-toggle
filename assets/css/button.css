@@ -1,0 +1,20 @@
+.btn {
+	text-align: center;
+	margin: 5em;
+}
+.button-text {
+	display: flex;
+	flex-wrap: wrap;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-size: 15vw;
+	letter-spacing: 0.3rem;
+	cursor: pointer;
+	display: inline-block;
+}
+
+/* On mouse-over */
+.button-text:hover {
+	color: rgb(170, 255, 0);
+}
